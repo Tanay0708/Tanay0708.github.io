@@ -1,0 +1,44 @@
+.skillMain {
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #212225;
+}
+
+.skillMain h1 {
+    color: honeydew;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.skills-card{
+    background-color: rgb(88, 88, 88);
+    width: 150px;
+    height:auto;
+
+}
+
+.skills-card:hover {
+    background-color: aliceblue;
+}
+.skills-card:hover .skills-card-name {
+    color: #212225;
+}
+
+.skills{
+    width: 90%;
+    margin: auto;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 50px;
+}
+.skills-card-img {
+    width: 100%;
+}
+.skills-card-name {
+    color: honeydew;
+    font-size: 1rem;
+}

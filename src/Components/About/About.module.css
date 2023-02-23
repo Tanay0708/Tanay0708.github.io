@@ -1,0 +1,24 @@
+.about {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    background-color: #212225;
+    display: flex;
+    align-items: center;
+}
+
+.aboutMe {
+
+    width: 50%;
+    color: #efefef;
+    text-transform: uppercase;
+    line-height: 25px;
+    text-align: center;
+}
+.image {
+
+    width: 50%;
+}
+.image img {
+    width: 50%;
+}

@@ -1,0 +1,38 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    border: 1px solid red;
+    gap: 50px;
+    background-color: #297373;
+}
+
+.project-card {
+    /* background-color: red; */
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.image {
+    border: 1px solid black;
+    height: 100%;
+    width: 45%;
+    align-items: center;
+}
+.image img {
+    width: 100%;
+   
+}
+
+.description {
+    border: 1px solid black;
+    height: 100%;
+    width: 45%;
+
+}
+.description p {
+    font-weight: 700;
+    text-transform: uppercase;
+}
