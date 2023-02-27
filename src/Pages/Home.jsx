@@ -16,9 +16,8 @@ function Home() {
   return (
     <div>
         <Navbar />
-       
         <Banner />
-        <About />
+        <About /> 
         <Skill />
         <Project />
         <GitStatus />
